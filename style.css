@@ -1,0 +1,125 @@
+/* External Fonts */
+@font-face {
+    font-family: 'Figtree';
+    src: url('assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Peso para ExtraBold */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Figtree';
+    src: url('assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Peso para SemiBold */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Figtree';
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal; /* Puedes ajustar el peso si es necesario */
+    font-style: italic; /* Definido como cursiva */
+  }
+  
+  @font-face {
+    font-family: 'Figtree';
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Soporte para pesos variables */
+    font-style: normal;
+  }
+  
+
+
+body{
+    background-color:#f5d04e;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content
+{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.whiteBox{
+    background-color: white;
+    
+    /*Dimentions*/
+    width: 350px; /*380*/
+
+    padding: 15px;
+    border-radius:10px;
+    border: 1px solid black ;
+
+    /*Shadow*/
+    box-shadow: 7px 7px  #000000;
+}
+
+.whiteBox img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.LearningBox{
+    font-family: 'Figtree';
+    font-weight: 800;
+    font-size: 15px;;
+    background-color: #f5d04e;
+    width:fit-content;
+    height:10px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Date
+{
+    font-family: 'Figtree';
+    font-weight: 600;
+    font-size: 14px;
+}
+.titleCard
+{
+    font-family: 'Figtree';
+    font-weight: 800;
+    font-size: 24px;
+}
+.text2
+{
+    font-family: 'Figtree';
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+.profile{
+    display: flex;
+    align-items: center;
+    font-family: 'Figtree';
+    font-weight: 800;
+    font-size: 14px;
+    text-indent: 10px;
+}
+.profile img
+{
+    height: 30px;
+    width: 30px;
+}
+
+.attribution
+{
+    position: absolute;
+    bottom: 10px;
+}
