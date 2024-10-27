@@ -39,6 +39,7 @@ body{
     flex-direction: column;
 }
 
+/* Container for the white box and the attribution text */
 .content
 {
     width: 500px;
@@ -49,6 +50,8 @@ body{
     align-items: center; /* Centra verticalmente */
 }
 
+
+/* White box and elements inside */
 .whiteBox{
     background-color: white;
     
@@ -69,6 +72,7 @@ body{
     
 }
 
+/* Yellow box */
 .LearningBox{
     font-family: 'Figtree';
     font-weight: 800;
@@ -85,18 +89,27 @@ body{
 
 }
 
+
+/* Date */
 .Date
 {
     font-family: 'Figtree';
     font-weight: 600;
     font-size: 14px;
 }
+
+/* Title and properties when it's active*/
 .titleCard
 {
     font-family: 'Figtree';
     font-weight: 800;
     font-size: 24px;
 }
+.titleCard:hover{
+    color: #f5d04e;
+}
+
+/* Main paragraph*/
 .text2
 {
     font-family: 'Figtree';
@@ -104,6 +117,8 @@ body{
     font-size: 16px;
     color: hsl(0, 0%, 42%);
 }
+
+/* Personal Information */
 .profile{
     display: flex;
     align-items: center;
@@ -118,6 +133,7 @@ body{
     width: 30px;
 }
 
+/* Attribution text */
 .attribution
 {
     position: absolute;
