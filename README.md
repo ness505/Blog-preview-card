@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontMentor](https://www.frontendmentor.io/solutions/blog-preview-card-AWFJsNG-3P)
+- Live Site URL: [Blog Preview Card](https://ness505.github.io/Blog-preview-card/)
 
 ## My process
 
